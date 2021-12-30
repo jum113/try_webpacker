@@ -5,3 +5,9 @@ $(function () {
     $(this).css({ "color": "" });
   })
 });
+
+$(function() {
+  $(".botton").on("click", function() {
+    $(".box").slideToggle();
+  });
+});
